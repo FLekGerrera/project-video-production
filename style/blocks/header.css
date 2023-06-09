@@ -1,0 +1,50 @@
+.header {
+height: 150px;
+}
+
+.header__container {
+  position: relative;
+}
+
+.logo__header {
+  display: block;
+  position: absolute;
+  top: 21px;
+}
+
+.menu {
+  position: absolute;
+  top: 42px;
+  left: 440px;
+}
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 55px;
+}
+.menu__item:last-child {
+  margin-right: 0;
+}
+.menu__link:hover {
+  color: #FF3D00;;
+}
+
+.contacts {
+  position: absolute;
+  top: 28px;
+  right: 0;
+}
+.contacts__phone {
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.contacts__dropdown-title {
+  position: absolute;
+  top: 28px;
+  right: 2px;
+  font-weight: 400;
+  font-size: 13px;
+  text-decoration: underline;
+  color: #FF5500;;
+}

@@ -1,0 +1,29 @@
+.hero__container {
+  margin-top: 76px;
+}
+
+.hero__title{
+  font-weight: 800;
+  font-size: 72px;
+  text-align: center;
+  text-transform: uppercase
+}
+
+.hero__text {
+  margin-top: 12px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.btn__wrapper {
+  text-align: center;
+}
+
+.button__hero {
+ text-align: center;
+  margin-top: 40px;
+}
+.button__hero:hover {
+  background: #FF3D00;
+}
