@@ -8,7 +8,6 @@ html {
 body,
 html {
 	height: 100%;
-	background: #17191C;
 }
 
 body {
@@ -16,6 +15,9 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	color: #fff;
 	margin: 0;
+}
+.body-main-bgcolor {
+	background: #17191C;
 }
 
 button {
@@ -72,9 +74,14 @@ img {
     height: 100%;
 }
 .wrapper-main {
-	background: url(../../img/hero.png), url(../../img/bottom-pic.png);
+	background: url(../../img/main/hero.png), url(../../img/main/bottom-pic.png);
 	background-repeat: no-repeat, no-repeat;
 	background-position: top center, bottom center;
+}
+.wrapper-services {
+	background: url(../../img/services/top-line.png);
+	background-repeat: no-repeat;
+	background-position: top center;
 }
 
 .container {
@@ -86,7 +93,7 @@ img {
 
 .menu {
 	font-weight: 400px;
-	font-size: 13px;
+	font-size: 14px;
 }
 
 .button {
@@ -97,4 +104,13 @@ img {
 	font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
+}
+
+.line {
+	margin: 0 auto;
+	max-width: 1142px;
+	height: 1px;
+	background: #FFFFFF;
+	mix-blend-mode: normal;
+	opacity: 0.1;
 }

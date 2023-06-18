@@ -1,34 +1,51 @@
-.line {
-  margin-bottom: 41px;
-	height: 1px;
-	background: #FFFFFF;
-	mix-blend-mode: normal;
-	opacity: 0.1;
+.line__main {
+  margin-top: 55px;
+}
+
+.footer {
+  padding-top: 31px;
+  background: #17191C;
+}
+
+.footer__services {
+  height: 128px;
+  background: #17191C;
 }
 
 .footer__container {
-  position: relative;
-  margin-top: 55px;
-  height: 146px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.logo__footer {
+  margin-right: 130px;
+}
+
+.footer__col--align--right {
+  justify-content: flex-end;
 }
 
 .menu__footer {
-  position: absolute;
-  vertical-align: middle;
-  top: 60px;
-  left: 328px;
+  padding-top: 11px;
 }
 
 .socialmedia {
-  position: absolute;
-  top: 51px;
-  right: 265px;
+  margin-right: 74px;
+}
+
+.socialmedia__list {
+  padding-top: 7px;
+  display: flex;
 }
 
 .socialmedia__item {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 6px;
+  margin-right: 10px;
 }
 .socialmedia__item:last-child {
   margin-right: 0;
@@ -38,6 +55,28 @@
 }
 .socialmedia__item--icon--tg .socialmedia__link:hover {
   background: url(/img/telegram2.png);
+  transition: .3;
+}
+.socialmedia__item--icon--vk .socialmedia__link {
+  background: url(/img/vk.png);
+}
+.socialmedia__item--icon--vk .socialmedia__link:hover {
+  background: url(/img/vk2.png);
+  transition: .3;
+}
+.socialmedia__item--icon--f .socialmedia__link {
+  background: url(/img/f.png);
+}
+.socialmedia__item--icon--f .socialmedia__link:hover {
+  background: url(/img/f2.png);
+  transition: .3;
+}
+.socialmedia__item--icon--in .socialmedia__link {
+  background: url(/img/in.png);
+}
+.socialmedia__item--icon--in .socialmedia__link:hover {
+  background: url(/img/in2.png);
+  transition: .3;
 }
 .socialmedia__link {
   display: block;
@@ -47,7 +86,7 @@
 }
 
 .contacts__footer {
-  top: 47px;
+  padding-top: 14px;
   text-align: right;
 }
 

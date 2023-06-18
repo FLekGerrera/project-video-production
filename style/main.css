@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+@import url(normalize.css);
 @import url(blocks/base.css);
 @import url(blocks/header.css);
 @import url(blocks/hero.css);
 @import url(blocks/offers.css);
 @import url(blocks/news.css);
+@import url(blocks/pagenation.css);
 @import url(blocks/about.css);
+@import url(blocks/orders.css);
 @import url(blocks/footer.css);
+@import url(blocks/top-line.css);
+@import url(blocks/page-content.css);
+@import url(blocks/partners.css);

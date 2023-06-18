@@ -2,12 +2,14 @@
   margin-top: 233px;
 }
 
+.offers_list {
+  display: flex;
+  justify-content: space-between;
+}
+
 .offers__item {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 23px;
   min-height: 476px;
-  width: 362px;
+  width: calc(100% / 3 - 17px);
   background: #FFFFFF;
   border-radius: 5px;
 }
@@ -34,13 +36,12 @@
 
 .offers__features{
   margin-top: 17px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .offers__feature{
-  display: inline-block;
-  vertical-align: middle;
   width: 123px;
-  margin-right: 55px;
   font-weight: 400;
   font-size: 16px;
   line-height: 125%;

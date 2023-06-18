@@ -1,0 +1,40 @@
+.pagenation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination__text {
+  margin-right: 22px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.pagenation__list {
+  display: flex;
+  justify-content: center;
+}
+
+.pagenation__item {
+  text-align: center;
+}
+
+.pagenation__link {
+  height: 32px;
+  width: 32px;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 6px 11px;
+}
+.pagenation__item:last-child {
+  margin-right: 0;
+}
+
+.pagenation__link:hover {
+  height: 32px;
+  width: 32px;
+  padding: 6px 11px;
+  color: #ffffff;
+  background: #FF5500;
+  border-radius: 50%;
+}

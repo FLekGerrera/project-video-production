@@ -1,26 +1,35 @@
 .header {
-height: 150px;
+  padding-top: 11px;
 }
 
 .header__container {
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__col {
+  display: flex;
+  align-items: center;
+}
+.header__col--align--right {
+  justify-content: flex-end;
 }
 
 .logo__header {
   display: block;
-  position: absolute;
-  top: 21px;
+  margin-right: 241px;
 }
 
 .menu {
-  position: absolute;
-  top: 42px;
-  left: 440px;
+ display: flex;
+}
+.menu__header {
+  padding-top: 16px;
 }
 .menu__item {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 55px;
+  display: inline-flex;
+  margin-right: 51px;
 }
 .menu__item:last-child {
   margin-right: 0;
@@ -29,20 +38,17 @@ height: 150px;
   color: #FF3D00;;
 }
 
-.contacts {
-  position: absolute;
-  top: 28px;
-  right: 0;
+.contacts__header {
+  padding-top: 17px;
 }
+
 .contacts__phone {
   font-weight: 400;
   font-size: 26px;
 }
 
 .contacts__dropdown-title {
-  position: absolute;
-  top: 28px;
-  right: 2px;
+  text-align: right;
   font-weight: 400;
   font-size: 13px;
   text-decoration: underline;

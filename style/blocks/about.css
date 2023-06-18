@@ -1,23 +1,25 @@
+.adout {
+  display: flex;
+}
+
 .about__container {
-  position: relative;
   margin-top: 148px;
 }
 .about__container:before, .about__content {
-  display: inline-block;
-  vertical-align: top;
+  display: block;
 }
 .about__container:before {
   content: "";
   height: 505px;
   width: 490px;
-  background: url(../../img/cameraman.png) center center / cover no-repeat;
+  background: url(../../img/main/cameraman.png) center center / cover no-repeat;
 }
 
 .about__content {
-  margin-top: 97px;
-  margin-left: -140px;
+  margin-top: -406px;
+  margin-left: 356px;
   min-height: 455px;
-  width: 785px;
+  max-width: 785px;
   padding: 69px 80px;
   background: #FFFFFF;
   border-radius: 5px;

@@ -1,5 +1,5 @@
 .hero__container {
-  margin-top: 76px;
+  margin-top: 146px;
 }
 
 .hero__title{
@@ -10,7 +10,7 @@
 }
 
 .hero__text {
-  margin-top: 12px;
+  margin-top: 10px;
   text-align: center;
   font-weight: 400;
   font-size: 18px;
@@ -21,8 +21,8 @@
 }
 
 .button__hero {
- text-align: center;
-  margin-top: 40px;
+  text-align: center;
+  margin-top: 41px;
 }
 .button__hero:hover {
   background: #FF3D00;
