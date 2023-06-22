@@ -41,7 +41,7 @@
   line-height: 42px;
 }
 .review__user:after {
-  content: url(/img/reviews/vk-blue.png);
+  content: url(../../img/reviews/vk-blue.png);
 }
 .review__user:hover {
   text-decoration-line: underline;
