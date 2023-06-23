@@ -51,31 +51,31 @@
   margin-right: 0;
 }
 .socialmedia__item--icon--tg {
-  background: url(/img/telegram.png);
+  background: url(./img/telegram.png);
 }
 .socialmedia__item--icon--tg:hover {
-  background: url(/img/telegram2.png);
+  background: url(./img/telegram2.png);
   transition: .3;
 }
 .socialmedia__item--icon--vk {
-  background: url(/img/vk.png);
+  background: url(./img/vk.png);
 }
 .socialmedia__item--icon--vk:hover {
-  background: url(/img/vk2.png);
+  background: url(./img/vk2.png);
   transition: .3;
 }
 .socialmedia__item--icon--f {
-  background: url(/img/f.png);
+  background: url(./img/f.png);
 }
 .socialmedia__item--icon--f:hover {
-  background: url(/img/f2.png);
+  background: url(./img/f2.png);
   transition: .3;
 }
 .socialmedia__item--icon--in {
-  background: url(/img/in.png);
+  background: url(./img/in.png);
 }
 .socialmedia__item--icon--in:hover {
-  background: url(/img/in2.png);
+  background: url(./img/in2.png);
   transition: .3;
 }
 .socialmedia__link {
