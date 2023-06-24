@@ -60,7 +60,7 @@
 }
 
 .socialmedia__link--icon--tg:before {
-  content: url(./img/telegram.png);
+  content: url(../../img/telegram.png);
   position: absolute;
   top: 0;
   right: 0;
@@ -69,11 +69,11 @@
   transition: 0.3s;
 }
 .socialmedia__link--icon--tg:hover:before {
-  content: url(./img/telegram2.png);
+  content: url(../../img/telegram2.png);
 }
 
 .socialmedia__link--icon--vk:before {
-  content: url(/img/vk.png);
+  content: url(../../img/vk.png);
   position: absolute;
   top: 0;
   right: 0;
@@ -82,11 +82,11 @@
   transition: 0.3s;
 }
 .socialmedia__link--icon--vk:hover:before {
-  content: url(/img/vk2.png);
+  content: url(../../img/vk2.png);
 }
 
 .socialmedia__link--icon--f:before {
-  content: url(/img/f.png);
+  content: url(../../img/f.png);
   position: absolute;
   top: 0;
   right: 0;
@@ -96,10 +96,10 @@
 }
 
 .socialmedia__link--icon--f:hover:before {
-  content: url(/img/f2.png);
+  content: url(../../img/f2.png);
 }
 .socialmedia__link--icon--in:before {
-  content: url(/img/in.png);
+  content: url(../../img/in.png);
   position: absolute;
   top: 0;
   right: 0;
@@ -109,7 +109,7 @@
 }
 
 .socialmedia__link--icon--in:hover:before {
-  content: url(/img/in2.png);
+  content: url(../../img/in2.png);
 }
 
 .contacts__footer {
