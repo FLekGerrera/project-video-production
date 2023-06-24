@@ -50,39 +50,66 @@
 .socialmedia__item:last-child {
   margin-right: 0;
 }
-.socialmedia__item--icon--tg {
-  background: url(./img/telegram.png);
-}
-.socialmedia__item--icon--tg:hover {
-  background: url(./img/telegram2.png);
-  transition: .3;
-}
-.socialmedia__item--icon--vk {
-  background: url(./img/vk.png);
-}
-.socialmedia__item--icon--vk:hover {
-  background: url(./img/vk2.png);
-  transition: .3;
-}
-.socialmedia__item--icon--f {
-  background: url(./img/f.png);
-}
-.socialmedia__item--icon--f:hover {
-  background: url(./img/f2.png);
-  transition: .3;
-}
-.socialmedia__item--icon--in {
-  background: url(./img/in.png);
-}
-.socialmedia__item--icon--in:hover {
-  background: url(./img/in2.png);
-  transition: .3;
-}
+
 .socialmedia__link {
-  display: block;
-  text-decoration: none;
+  position: relative;
+  display: inline-block;
   height: 36px;
   width: 36px;
+  border-radius: 100%;
+}
+
+.socialmedia__link--icon--tg:before {
+  content: url(./img/telegram.png);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s;
+}
+.socialmedia__link--icon--tg:hover:before {
+  content: url(./img/telegram2.png);
+}
+
+.socialmedia__link--icon--vk:before {
+  content: url(/img/vk.png);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s;
+}
+.socialmedia__link--icon--vk:hover:before {
+  content: url(/img/vk2.png);
+}
+
+.socialmedia__link--icon--f:before {
+  content: url(/img/f.png);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s;
+}
+
+.socialmedia__link--icon--f:hover:before {
+  content: url(/img/f2.png);
+}
+.socialmedia__link--icon--in:before {
+  content: url(/img/in.png);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s;
+}
+
+.socialmedia__link--icon--in:hover:before {
+  content: url(/img/in2.png);
 }
 
 .contacts__footer {
