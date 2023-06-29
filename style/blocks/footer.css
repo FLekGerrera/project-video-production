@@ -59,57 +59,68 @@
   border-radius: 100%;
 }
 
-.socialmedia__link--icon--tg:before {
-  content: url(../../img/telegram.png);
+.socialmedia__link--icon--tg:after {
+  content: "";
+  display: block;
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transition: 0.3s;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 36px;
+  width: 36px;
+  background: url(../../img/css_sprites.png) -10px -10px;
 }
-.socialmedia__link--icon--tg:hover:before {
-  content: url(../../img/telegram2.png);
+.socialmedia__link--icon--tg:hover:after {
+  content: "";
+  background-position:-10px -66px;
 }
 
-.socialmedia__link--icon--vk:before {
-  content: url(../../img/vk.png);
+.socialmedia__link--icon--vk:after {
+  content: "";
+  display: block;
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transition: 0.3s;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 36px;
+  width: 36px;
+  background: url(../../img/css_sprites.png) -66px -10px;
 }
-.socialmedia__link--icon--vk:hover:before {
-  content: url(../../img/vk2.png);
+.socialmedia__link--icon--vk:hover:after {
+  content: "";
+  background-position: -66px -66px;
 }
 
-.socialmedia__link--icon--f:before {
-  content: url(../../img/f.png);
+.socialmedia__link--icon--f:after {
+  content: "";
+  display: block;
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transition: 0.3s;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 36px;
+  width: 36px;
+  background: url(../../img/css_sprites.png) -122px -10px;
+}
+.socialmedia__link--icon--f:hover:after {
+  content: "";
+  background-position: -122px -66px;
 }
 
-.socialmedia__link--icon--f:hover:before {
-  content: url(../../img/f2.png);
-}
-.socialmedia__link--icon--in:before {
-  content: url(../../img/in.png);
+.socialmedia__link--icon--in:after {
+  content: "";
+  display: block;
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transition: 0.3s;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 36px;
+  width: 36px;
+  background: url(../../img/css_sprites.png) -10px -122px;
 }
-
-.socialmedia__link--icon--in:hover:before {
-  content: url(../../img/in2.png);
+.socialmedia__link--icon--in:hover:after {
+  content: "";
+  background-position: -66px -122px;
 }
 
 .contacts__footer {
