@@ -1,0 +1,50 @@
+.socials__list {
+    display: flex;
+}
+
+.socials__item {
+    margin-right: 10px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.socials__link {
+    display: block;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+}
+
+.socials__item--icon--tg .socials__link {
+    background-image: url(../../img/icons/tg.png);
+}
+
+.socials__item--icon--tg .socials__link:hover {
+    background-image: url(../../img/icons/tg2.png);
+}
+
+.socials__item--icon--vk .socials__link {
+    background-image: url(../../img/icons/vk.png);
+}
+
+.socials__item--icon--vk .socials__link:hover {
+    background-image: url(../../img/icons/vk2.png);
+}
+
+.socials__item--icon--fb .socials__link {
+    background-image: url(../../img/icons/fb.png);
+}
+
+.socials__item--icon--fb .socials__link:hover {
+    background-image: url(../../img/icons/fb2.png);
+}
+
+.socials__item--icon--in .socials__link {
+    background-image: url(../../img/icons/inst.png);
+}
+
+.socials__item--icon--in .socials__link:hover {
+    background-image: url(../../img/icons/inst2.png);
+}

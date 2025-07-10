@@ -1,0 +1,26 @@
+.btn {
+    display: inline-block;
+    padding: 16px 54px;
+    border: 2px solid #FF5500;
+    background: #FF5500 ;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 35px;
+}
+
+.btn:hover {
+    border: 2px solid #FF3d00;
+    background: #FF3D00;
+}
+
+.btn--theme--white {
+    border: 2px solid #FF5500;
+    background: #fff;
+    color: #FF5500;
+}
+
+.btn--theme--white:hover {
+    color: #fff;
+}
