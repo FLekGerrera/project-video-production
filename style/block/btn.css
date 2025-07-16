@@ -10,6 +10,10 @@
     border-radius: 35px;
 }
 
+.about__btn {
+    padding: 15px 38px;
+}
+
 .btn:hover {
     border: 2px solid #FF3d00;
     background: #FF3D00;
