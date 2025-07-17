@@ -10,3 +10,7 @@
 .services__item:last-child {
     margin-bottom: 0;
 }
+
+.service__img-wrapper {
+    margin-right: 5%;
+}
