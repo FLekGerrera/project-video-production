@@ -51,6 +51,11 @@ p {
     box-sizing: border-box;
 }
 
+img {
+    display: block;
+    w100%
+}
+
 /* wrapper */
 
 .wrapper__content--main {
