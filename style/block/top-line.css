@@ -1,0 +1,19 @@
+.top-line {
+    display: flex;
+    height: 416px;
+    padding-bottom: 26px;
+    flex: 1;
+    background: #17191C url(../../img/decor/top-line.png) center center no-repeat;
+}
+
+.top-line__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-line__title {
+    font-size: 72px;
+    font-weight: 800;
+    text-transform: uppercase;
+}

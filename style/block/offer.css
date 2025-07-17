@@ -18,6 +18,7 @@
 .offers__item {
     display: flex;
     flex-direction: column;
+    min-height: 476px;
     width: calc(100% / 3 - 18px);
 }
 
