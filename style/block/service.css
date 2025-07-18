@@ -1,5 +1,16 @@
+.service__link:hover .btn {
+    border: 2px solid #FF3d00;
+    background: #FF3D00;
+    color: #fff;
+    transition: .2s;
+}
+
 .service__content {
     display: flex;
+}
+
+.service__img-wrapper {
+    margin-right: 5%;
 }
 
 .service__desc {

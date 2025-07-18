@@ -36,20 +36,9 @@
     border-radius: 50%;
     font-weight: bold;
     line-height: 32px;
+    transition: .2s;
 }
 
 .pager__link:hover {
     background: #FF5500;
-}
-
-.pager__services {
-    color: #000;
-}
-
-.pager__services .pager__list .pager__link:hover {
-    color: #fff;
-}
-
-.pager__services .pager__list .pager__item--active .pager__link {
-    color: #fff;
 }

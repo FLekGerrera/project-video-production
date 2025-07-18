@@ -8,6 +8,7 @@
     font-weight: 700;
     text-transform: uppercase;
     border-radius: 35px;
+    transition: .2s;
 }
 
 .about__btn {
