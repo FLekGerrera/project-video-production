@@ -1,0 +1,8 @@
+.reviews {
+    padding-top: 94px;
+}
+
+.reviews__list {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,27 @@
+.review {
+    background: #F4F5F5;
+    padding: 52px 30px;
+}
+
+.review__header {
+    display: flex;
+}
+
+.review__img {
+    margin-right: 1%;
+}
+
+.review__avatar {
+    width: 140px;
+    border-radius: 50%;
+}
+
+.review__link {
+    color: #1A1B1E;
+}
+
+.review__person {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
