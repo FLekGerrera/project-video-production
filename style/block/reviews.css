@@ -1,8 +1,19 @@
 .reviews {
-    padding-top: 94px;
+    padding: 94px 0 86px;
 }
 
 .reviews__list {
-    display: flex;
-    flex-wrap: wrap;
+    column-count: 2;
+    column-gap: 30px;
+}
+
+.reviews__item {
+    margin-bottom: 18px;
+}
+.reviews__item:last-child {
+    margin-bottom: 0;
+}
+
+.pager__wrapper--reviews {
+    margin-top: 70px;
 }
