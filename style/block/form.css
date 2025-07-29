@@ -1,0 +1,32 @@
+.from__row {
+    display: flex;
+    margin-bottom: 26px;
+}
+.from__row:last-child {
+    margin-bottom: 0;
+}
+
+.input__text {
+    flex: 1;
+    padding: 0 30px;
+    margin-right: 28px;
+    height: 65px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #1A1B1E;
+}
+.input__text:last-child {
+    margin-right: 0;
+}
+.input__text:placeholder {
+    color: #666;
+}
+.input__text:focus {
+    border: 1px solid #ccc;
+}
+
+.input__textarea {
+    padding: 30px;
+    min-height: 235px;
+}

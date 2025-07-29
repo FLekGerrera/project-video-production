@@ -75,4 +75,11 @@ img {
     font-size: 36px;
     text-transform: uppercase;
     font-weight: 800;
+    color: #1A1B1E;
+}
+
+/* section */
+
+.section--gray {
+    background: #F4F5F5;
 }

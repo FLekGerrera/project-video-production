@@ -14,6 +14,18 @@
     margin-bottom: 0;
 }
 
+/* pager */
+
 .pager__wrapper--reviews {
     margin-top: 70px;
+}
+
+/* form */
+
+.reviews-forms {
+    padding: 78px 0 70px;
+}
+
+.reviews-form {
+    margin-top: 55px;
 }
