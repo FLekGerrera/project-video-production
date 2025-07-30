@@ -48,6 +48,15 @@
     flex-wrap: wrap;
 }
 
+.review__item-tag {
+    margin-right: 13px;
+    margin-bottom: 10px;
+}
+.review__item-tag:last-child {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
 .review__content {
     margin-top: 28px;
 }
