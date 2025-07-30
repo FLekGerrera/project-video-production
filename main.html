@@ -1,118 +1,114 @@
 <!DOCTYPE html>
-<!-- <html lang="ru"> -->
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1200, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
     <link rel="stylesheet" href="./style/main.css">
-    <title>Video production</title>
+    <title>Video Production | Главная</title>
 </head>
 
-<body class="body-main-bgcolor">
-    <div class="wrapper wrapper-main">
-        <div class="wrapper__content wrapper__content-main">
+<body class="body--main">
+    <div class="wrapper">
+        <div class="wrapper__content wrapper__content--main">
             <header class="header">
                 <div class="container header__container">
-                    <div class="header__col">
-                        <a href="./" class="logo logo__header">
-                            <img src="./img/logo.png" alt="Video Production logo">
+                    <div class="header__col header__col--align--left">
+                        <a href="./index.html" class="logo header__logo">
+                            <img src="./img/icons/logo.png" alt="Логотип Video Production" class="logo__img">
                         </a>
-                        <nav class="menu menu__header">
+                        <nav class="menu header__menu">
                             <ul class="menu__list">
-                                <li class="menu__item">
-                                    <a href="./main.html" class="menu__link">Главная</a>
-                                </li>
-                                <li class="menu__item">
-                                    <a href="./services.html" class="menu__link">Услуги</a>
-                                </li>
-                                <li class="menu__item">
-                                    <a href="./reviews.html" class="menu__link">Отзывы</a>
-                                </li>
+                                <li class="menu__item"><a href="./main.html" class="menu__link">Главная</a></li>
+                                <li class="menu__item"><a href="./services.html" class="menu__link">Услуги</a></li>
+                                <li class="menu__item"><a href="./reviews.html" class="menu__link">Отзывы</a></li>
                             </ul>
                         </nav>
                     </div>
                     <div class="header__col header__col--align--right">
-                        <div class="contacts contacts__header">
+                        <address class="contacts header__contacts">
                             <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                            <div class="contacts__dropdown">
-                                <a class="contacts__dropdown-title">График работы</a>
-                                <div class="dropdown__menu">
-                                    <ul class="dropdown__list">
-                                        <li class="dropdown__item dropdown__item--bold">пн-вс: 09:00 - 20:00</li>
-                                        <li class="dropdown__item">Обед: 14:00 - 14:30</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                            <div class="contacts__dropdown-title">Графие работы</div>
+                        </address>
                     </div>
                 </div>
             </header>
-            <main class="maincontnet">
+            <main class="main-content">
                 <section class="hero">
                     <div class="container hero__container">
                         <div class="hero__text-section">
-                            <h1 class="hero__title">Снимем для вас креативное видео</h1>
-                            <p class="hero__text">Креативный видеопродакшн полного цикла</p>
+                            <h1 class="hero__title">снимем для вас креативное видео</h1>
+                            <h4 class="hero__text">Креативный видеопродакшн полного цикла</h4>
+                            <div class="hero__wrapper-btn">
+                                <a href="#" class="btn">подробнее</a>
+                            </div>
                         </div>
-                        <div class="btn__wrapper"><a href="#" class="button button__hero">Подробнее</a></div>
                     </div>
                 </section>
                 <section class="offers">
                     <div class="container offers__container">
-                        <ul class="offers_list">
+                        <ul class="offers__list">
                             <li class="offers__item offer">
-                                <img src="./img/main/tv.png" alt="" class="offers__img">
-                                <div class="offers__content">
-                                    <h3 class="offers__title">Реклама</h3>
-                                    <div class="offers__features">
-                                        <div class="offers__feature">От 5 человек на проект</div>
-                                        <div class="offers__feature">28 дней работы в среднем</div>
+                                <div class="offer__header">
+                                    <img src="./img/icons/tv.png" alt="Картинка TV" class="offer__img">
+                                </div>
+                                <div class="offer__content">
+                                    <h3 class="offer__title">Реклама</h3>
+                                    <div class="offer__list">
+                                        <div class="offer__item">От <span>5</span> человек на проект</div>
+                                        <div class="offer__item"><span>28</span> дней работы в среднем</div>
                                     </div>
-                                    <p class="offers__text">
-                                        Креатив и производство рекламы, документального и
-                                        корпоративного контента.
-                                    </p>
-                                    <div class="offers__button-wrapper">
-                                        <a href="#" class="button button__offers button--light">Подробнее</a>
+                                    <div class="offer__text">
+                                        <p>
+                                            Креатив и производство рекламы, документального и корпоративного контента.
+                                        </p>
                                     </div>
-
+                                    <div class="offer__wrapper-btn">
+                                        <a href="#" class="btn btn--theme--white">подробнее</a>
+                                    </div>
                                 </div>
                             </li>
                             <li class="offers__item offer offers__item--border">
-                                <img src="./img/main/clapper.png" alt="" class="offers__img">
-                                <div class="offers__content">
-                                    <h3 class="offers__title">Видео-клип</h3>
-                                    <div class="offers__features">
-                                        <div class="offers__feature">От 7 человек на проект</div>
-                                        <div class="offers__feature">21 дней работы в среднем</div>
+                                <div class="offer__header">
+                                    <img src="./img/icons/clapper.png" alt="Картинка Clapper" class="offer__img">
+                                </div>
+                                <div class="offer__content">
+                                    <h3 class="offer__title">Видео-клип</h3>
+                                    <ul class="offer__list">
+                                        <li class="offer__item">От <span>7</span> человек на проект</li>
+                                        <li class="offer__item"><span>21</span> дней работы в среднем</li>
+                                    </ul>
+                                    <div class="offer__text">
+                                        <p>
+                                            Вы решили представиться своим слушателям, пополнить свой творческий багаж
+                                            качественным видео? Прекрасно!
+                                        </p>
                                     </div>
-                                    <p class="offers__text">
-                                        Вы решили представиться своим слушателям, пополнить свой
-                                        творческий багаж качественным видео? Прекрасно!
-                                    </p>
-                                    <div class="offers__button-wrapper">
-                                        <a href="#" class="button button__offers">Подробнее</a>
+                                    <div class="offer__wrapper-btn">
+                                        <a href="#" class="btn">подробнее</a>
                                     </div>
-
                                 </div>
                             </li>
                             <li class="offers__item offer">
-                                <img src="./img/main/film.png" alt="" class="offers__img">
-                                <div class="offers__content">
-                                    <h3 class="offers__title">Свадьба</h3>
-                                    <div class="offers__features">
-                                        <div class="offers__feature">От 2 человек на проект</div>
-                                        <div class="offers__feature">30 дней работы в среднем</div>
+                                <div class="offer__header">
+                                    <img src="./img/icons/film.png" alt="Картинка Film" class="offer__img">
+                                </div>
+                                <div class="offer__content">
+                                    <h3 class="offer__title">Свадьба</h3>
+                                    <ul class="offer__list">
+                                        <li class="offer__item">От <span>2</span> человек на проект</li>
+                                        <li class="offer__item"><span>30</span> дней работы в среднем</li>
+                                    </ul>
+                                    <div class="offer__text">
+                                        <p>
+                                            Получите живое видео своего самого счастливого дня, которое Вы будете
+                                            пересматривать снова и снова.
+                                        </p>
                                     </div>
-                                    <p class="offers__text">
-                                        Получите живое видео своего самого счастливого дня, которое
-                                        Вы будете пересматривать снова и снова.
-                                    </p>
-                                    <div class="offers__button-wrapper">
-                                        <a href="#" class="button button__offers button--light">Подробнее</a>
+                                    <div class="offer__wrapper-btn">
+                                        <a href="#" class="btn btn--theme--white">подробнее</a>
                                     </div>
-
                                 </div>
                             </li>
                         </ul>
@@ -120,127 +116,102 @@
                 </section>
                 <section class="news">
                     <div class="container news__container">
-                        <h2 class="news__title">новости и акции</h2>
-                        <ul class="news__lists">
-                            <li class="news__list">
-                                <img src="./img/main/camera.png" alt="" class="news__img">
-                                <div class="news__text">
-                                    <time class="news__date">Декабрь 2019</time>
-                                    <div class="news__list-title">Снимем ваш клип на 50% дешевле</div>
-                                    <div class="news__hook">В честь Новогодних праздников мы раздаем огромные скидки,
-                                        успейте забронировать даты.</div>
+                        <h2 class="title title--theme--white">новости и акции</h2>
+                        <ul class="news__list">
+                            <li class="news__item single-news">
+                                <img src="./img/content/camera.png" alt="Фотокамера" class="single-news__img">
+                                <div class="single-news__content">
+                                    <time class="single-news__date">Декабрь 2019</time>
+                                    <h3 class="single-news__title">Снимем ваш клип на 50% дешевле</h3>
+                                    <div class="single-news__text">
+                                        <p>
+                                            В честь Новогодних праздников мы раздаем огромные скидки, успейте
+                                            забронировать даты.
+                                        </p>
+                                    </div>
                                 </div>
                             </li>
-                            <li class="news__list">
-                                <img src="./img/main/wedding.png" alt="" class="news__img">
-                                <div class="news__text">
-                                    <p class="news__date">Декабрь 2019</p>
-                                    <h3 class="news__list-title">Акция для молодоженов 30%</h3>
-                                    <p class="news__hook">Успейте забронировать даты. Пока еще есть места на
-                                        декабрь.
-                                        Удачи и всех благ!</p>
+                            <li class="news__item single-news">
+                                <img src="./img/content/wedding.png" alt="Невеста в свадебном платье" class="single-news__img">
+                                <div class="single-news__content">
+                                    <div class="single-news__date">Декабрь 2019</div>
+                                    <h3 class="single-news__title">Акция для молодоженов 30%</h3>
+                                    <div class="single-news__text">
+                                        <p>
+                                            Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и
+                                            всех благ!
+                                        </p>
+                                    </div>
                                 </div>
                             </li>
-
                         </ul>
-                        <div class="pagenation">
-                            <div class="pagination__text">Страница 1 из 7</div>
-                            <ul class="pagenation__list">
-                                <li class="pagenation__item">
-                                    <a href="#" class="pagenation__link">1</a>
-                                </li>
-                                <li class="pagenation__item">
-                                    <a href="#" class="pagenation__link">2</a>
-                                </li>
-                                <li class="pagenation__item">
-                                    <a href="#" class="pagenation__link">3</a>
-                                </li>
-                                <li class="pagenation__item">
-                                    <a href="#" class="pagenation__link">4</a>
-                                </li>
-                                <li class="pagenation__item">
-                                    <a href="#" class="pagenation__link">5</a>
-                                </li>
-                                <li class="pagenation__item">
-                                    <a href="#" class="pagenation__link">6</a>
-                                </li>
-                                <li class="pagenation__item">
-                                    <a href="#" class="pagenation__link">7</a>
-                                </li>
-                            </ul>
+                        <div class="pager__wrapper">
+                            <div class="pager">
+                                <span class="pager__display">Страница 1 из 7</span>
+                                <ul class="pager__list">
+                                    <li class="pager__item pager__item--active"><a href="" class="pager__link">1</a>
+                                    </li>
+                                    <li class="pager__item"><a href="" class="pager__link">2</a></li>
+                                    <li class="pager__item"><a href="" class="pager__link">3</a></li>
+                                    <li class="pager__item"><a href="" class="pager__link">4</a></li>
+                                    <li class="pager__item"><a href="" class="pager__link">5</a></li>
+                                    <li class="pager__item"><a href="" class="pager__link">6</a></li>
+                                    <li class="pager__item"><a href="" class="pager__link">7</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </section>
                 <section class="about">
                     <div class="container about__container">
-                        <div class="about__content">
-                            <h2 class="about__title">О нас</h2>
-                            <div class="about__text-wrapper">
-                                <p>
-                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
-                                    сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском
-                                    языке, а начинающему оратору отточить навык публичных выступлений в домашних
-                                    условиях.
-                                </p>
+                        <div class="about__wrapper">
+                            <div class="about__content">
+                                <h2 class="title">о нас </h2>
+                                <div class="about__text">
+                                    <p>
+                                        Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                        несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                        начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                                    </p>
+                                </div>
+                                <div class="about__wrapper-btn">
+                                    <a href="#" class="btn about__btn">подробнее</a>
+                                </div>
                             </div>
-                            <a href="#" class="button button__about">Подробнее</a>
                         </div>
                     </div>
                 </section>
             </main>
         </div>
     </div>
-    <div class="line line__main"></div>
-    <footer class="footer__services">
-        <div class="container">
-            <footer class="footer">
-                <div class="container footer__container">
-                    <div class="footer__col">
-                        <a href="./" class="logo logo__footer">
-                            <img src="./img/logo.png" alt="Video Production - Главная страница">
-                        </a>
-                            <nav class="menu menu__footer">
-                            <ul class="menu__list">
-                                <li class="menu__item">
-                                    <a href="./main.html" class="menu__link">Главная</a>
-                                </li>
-                                <li class="menu__item">
-                                    <a href="./services.html" class="menu__link">Услуги</a>
-                                </li>
-                                <li class="menu__item">
-                                    <a href="./reviews.html" class="menu__link">Отзывы</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="footer__col footer__col--align--right">
-                        <div class="socialmedia">
-                            <ul class="socialmedia__list">
-                                <li class="socialmedia__item">
-                                    <a href="#" class="socialmedia__link socialmedia__link--icon--tg">
-                                    </a>
-                                </li>
-                                <li class="socialmedia__item">
-                                    <a href="#" class="socialmedia__link socialmedia__link--icon--vk">
-                                    </a>
-                                </li>
-                                <li class="socialmedia__item">
-                                    <a href="#" class="socialmedia__link socialmedia__link--icon--f">
-                                    </a>
-                                </li>
-                                <li class="socialmedia__item">
-                                    <a href="#" class="socialmedia__link socialmedia__link--icon--in">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="contacts contacts__footer">
-                            <div class="contacts__call">Бесплатные звонки по России</div>
-                            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                        </div>
-                    </div>
+    <footer class="footer footer--main">
+        <div class="container footer__container">
+            <div class="footer__col footer__col--align--left">
+                <a href="./index.html" class="logo footer__logo">
+                    <img src="./img/icons/logo.png" alt="Логотип Video Production" class="logo__img">
+                </a>
+                <nav class="menu footer__menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="./main.html" class="menu__link">Главная</a></li>
+                        <li class="menu__item"><a href="./services.html" class="menu__link">Услуги</a></li>
+                        <li class="menu__item"><a href="./reviews.html" class="menu__link">Отзывы</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__col footer__col--align--right">
+                <div class="socials">
+                    <ul class="socials__list">
+                        <li class="socials__item socials__item--icon--tg"><a href="https://telegram.org/" class="socials__link"></a></li>
+                        <li class="socials__item socials__item--icon--vk"><a href="https://vk.com/" class="socials__link"></a></li>
+                        <li class="socials__item socials__item--icon--fb"><a href="https://www.facebook.com/" class="socials__link"></a></li>
+                        <li class="socials__item socials__item--icon--in"><a href="https://www.instagram.com/" class="socials__link"></a></li>
+                    </ul>
                 </div>
-            </footer>
+                <address class="contacts footer__contacts">
+                    <div class="contacts__desc">Бесплатный звонок по России</div>
+                    <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                </address>
+            </div>
         </div>
     </footer>
 </body>
