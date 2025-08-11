@@ -14,38 +14,33 @@
     display: block;
     width: 36px;
     height: 36px;
-    background: center center no-repeat;
     transition: .2s;
 }
 
-.socials__item--icon--tg .socials__link {
-    background-image: url(../../img/icons/tg.png);
+.socials__item--icon--tg {
+    background: url(../../img/icons/sprites__socials.png) -10px -10px;
+}
+.socials__item--icon--tg:hover {
+    background: url(../../img/icons/sprites__socials.png) -66px -10px;
 }
 
-.socials__item--icon--tg .socials__link:hover {
-    background-image: url(../../img/icons/tg2.png);
+.socials__item--icon--vk {
+    background: url(../../img/icons/sprites__socials.png) -10px -66px
+}
+.socials__item--icon--vk:hover {
+    background: url(../../img/icons/sprites__socials.png) -66px -66px;
 }
 
-.socials__item--icon--vk .socials__link {
-    background-image: url(../../img/icons/vk.png);
+.socials__item--icon--fb {
+    background: url(../../img/icons/sprites__socials.png) -122px -10px;
+}
+.socials__item--icon--fb:hover {
+    background: url(../../img/icons/sprites__socials.png) -122px -66px;
 }
 
-.socials__item--icon--vk .socials__link:hover {
-    background-image: url(../../img/icons/vk2.png);
+.socials__item--icon--in {
+    background: url(../../img/icons/sprites__socials.png) -10px -122px;
 }
-
-.socials__item--icon--fb .socials__link {
-    background-image: url(../../img/icons/fb.png);
-}
-
-.socials__item--icon--fb .socials__link:hover {
-    background-image: url(../../img/icons/fb2.png);
-}
-
-.socials__item--icon--in .socials__link {
-    background-image: url(../../img/icons/inst.png);
-}
-
-.socials__item--icon--in .socials__link:hover {
-    background-image: url(../../img/icons/inst2.png);
+.socials__item--icon--in:hover {
+    background: url(../../img/icons/sprites__socials.png) -66px -122px;
 }

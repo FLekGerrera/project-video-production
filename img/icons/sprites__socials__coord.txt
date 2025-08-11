@@ -1,0 +1,46 @@
+.bg-tg {
+    width: 36px; height: 36px;
+    background: url('sprites__socials.png') -10px -10px;
+}
+
+x
+.bg-tg2 {
+    width: 36px; height: 36px;
+    background: url('sprites__socials.png') -66px -10px;
+}
+
+x
+.bg-vk {
+    width: 36px; height: 36px;
+    background: url('sprites__socials.png') -10px -66px;
+}
+
+x
+.bg-vk2 {
+    width: 36px; height: 36px;
+    background: url('sprites__socials.png') -66px -66px;
+}
+
+x
+.bg-fb {
+    width: 36px; height: 36px;
+    background: url('sprites__socials.png') -122px -10px;
+}
+
+x
+.bg-fb2 {
+    width: 36px; height: 36px;
+    background: url('sprites__socials.png') -122px -66px;
+}
+
+x
+.bg-inst {
+    width: 36px; height: 36px;
+    background: url('sprites__socials.png') -10px -122px;
+}
+
+x
+.bg-inst2 {
+    width: 36px; height: 36px;
+    background: url('sprites__socials.png') -66px -122px;
+}
