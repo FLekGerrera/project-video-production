@@ -1,0 +1,46 @@
+.socials__list {
+    display: flex;
+}
+
+.socials__item {
+    margin-right: 10px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.socials__link {
+    display: block;
+    width: 36px;
+    height: 36px;
+    transition: .2s;
+}
+
+.socials__item--icon--tg {
+    background: url(../../img/icons/sprites__socials.png) -10px -10px;
+}
+.socials__item--icon--tg:hover {
+    background: url(../../img/icons/sprites__socials.png) -66px -10px;
+}
+
+.socials__item--icon--vk {
+    background: url(../../img/icons/sprites__socials.png) -10px -66px
+}
+.socials__item--icon--vk:hover {
+    background: url(../../img/icons/sprites__socials.png) -66px -66px;
+}
+
+.socials__item--icon--fb {
+    background: url(../../img/icons/sprites__socials.png) -122px -10px;
+}
+.socials__item--icon--fb:hover {
+    background: url(../../img/icons/sprites__socials.png) -122px -66px;
+}
+
+.socials__item--icon--in {
+    background: url(../../img/icons/sprites__socials.png) -10px -122px;
+}
+.socials__item--icon--in:hover {
+    background: url(../../img/icons/sprites__socials.png) -66px -122px;
+}

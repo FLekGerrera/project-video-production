@@ -1,0 +1,11 @@
+.tag {
+    font-size: 13px;
+    padding: 10px 24px;
+    border-radius: 35px;
+    background: #E7E7E7;
+    color: #303030;
+}
+
+.tag--bg--muline {
+    background: #F2D4C9;
+}

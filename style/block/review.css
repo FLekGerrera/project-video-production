@@ -1,0 +1,86 @@
+.review {
+    display: inline-flex;
+    flex-direction: column;
+    background: #F4F5F5;
+    padding: 52px 30px 34px;
+    border-radius: 5px;
+}
+
+.review__header {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.review__userdata {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 22px;
+}
+
+.review__user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1A1B1E;
+}
+.review__user:hover {
+    color: #2E77A4;
+    text-decoration: underline;
+}
+.review__user:after {
+    content: url(../../img/icons/vk-blue\ 1.png);
+    margin-left: 8px;
+}
+
+.review__tags {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.review__item-tag {
+    margin-right: 13px;
+    margin-bottom: 10px;
+}
+.review__item-tag:last-child {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.review__content {
+    margin-top: 28px;
+}
+
+.review__title {
+    margin-left: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #202020;
+}
+
+.review__desc {
+    margin-top: 12px;
+}
+.review__desc p {
+    line-height: 1.6875;
+    color: #818181;
+}
+
+.review__data {
+    display: flex;
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1A1B1E;
+}
+

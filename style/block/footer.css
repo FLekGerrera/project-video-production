@@ -1,0 +1,42 @@
+.footer {
+    background: #17191C;
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.footer--main {
+    margin: 0 auto;
+    width: 1140px;
+    border-top: 2px solid #ffffff20;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo {
+    margin-right: 130px;
+}
+
+.footer__col--align--right {
+    justify-content: flex-end;
+}
+
+.footer__contacts {
+    margin-left: 72px;
+}
+
+.contacts__desc {
+    font-size: 11px;
+    margin-bottom: 6px;
+    font-style: normal;
+}

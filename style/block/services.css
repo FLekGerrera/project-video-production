@@ -1,0 +1,25 @@
+.services {
+    padding-top: 94px;
+    padding-bottom: 84px;
+    background: #fff;
+}
+
+.services__item {
+    margin-bottom: 48px;
+}
+
+.services__item:last-child {
+    margin-bottom: 0;
+}
+
+.services__pager {
+    color: #000;
+}
+
+.services__pager .pager__list .pager__link:hover {
+    color: #fff;
+}
+
+.services__pager .pager__list .pager__item--active .pager__link {
+    color: #fff;
+}
