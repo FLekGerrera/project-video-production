@@ -1,0 +1,31 @@
+.offers {
+    padding: 72px 0 90px;
+}
+
+.offers__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background: #fff;
+    color: #666;
+    overflow: hidden;
+}
+
+.offers__item {
+    display: flex;
+    flex-direction: column;
+    min-height: 476px;
+    width: calc(100% / 3 - 18px);
+}
+
+.offers__item--border {
+    border: 5px solid #ccc;
+}
+
+.offers__item:last-child {
+    margin-right: 0;
+}
